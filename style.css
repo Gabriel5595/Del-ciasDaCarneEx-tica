@@ -1,0 +1,155 @@
+body {
+    padding: 0px;
+}
+
+.menuPrincipal nav {
+    position: sticky;
+}
+
+.menuPrincipal nav ul {
+    background-color: black;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menuPrincipal nav ul li {
+    padding: 30px;
+}
+
+.menuPrincipal nav ul li:hover{
+    background-color: gray;
+}
+
+.menuPrincipal nav ul li a {
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(162, 161, 161, 0.347), rgba(255, 255, 255, 0.347)), url(https://www.foodconnection.com.br/sites/foodconnection.com/files/produo%20de%20carnes%20nobres.jpg);
+    background-size: cover;
+    height: 450px;
+    display: block;
+    text-align: center;
+}
+
+#hero h1, h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#hero h1{
+    font-size: 76px;
+    padding-top: 100px;
+    margin: 0px;
+}
+
+#hero h3{
+    font-size: 36px;
+}
+
+HR {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 95%;
+    background-color: black;
+}
+
+.subtitulo {
+    font-size: 36px;
+}
+
+.corte{
+    margin: 0 100px 0 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.corte img {
+    justify-content: center;
+    width: 90px;
+    border-radius: 20%;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+.corteCard {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(200, 196, 196);
+    width: 20%;
+}
+
+.nomeCorte {
+    font-size: 26px;
+    color: black;
+    margin-bottom: -5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.precoCorte span {
+    font-weight: bold;
+    color: gold;
+}
+
+.alinhaBtn {
+    width: 60%; 
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato h3 {
+    margin-top: 0px;
+}
+
+#contatenosBackground {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 196, 196);
+    width: 60%;
+}
+
+#contatenos {
+    margin: 20px;
+    text-align: justify;
+}
+
+#sectionForm form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+input, textarea{
+    margin: 10px;
+}
+
+footer div {
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 20px;
+}
+
+footer div p{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
